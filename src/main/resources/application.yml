@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    url: jdbc:postgresql://localhost:3000/tasktally
+    username: postgres
+    password: ""
+    driverClassName: org.postgresql.Driver
+
+application:
+  host: http://localhost
+  access-token:
+    secretKey: foidsoifjoivzoicxjgoisdjfiodsoidsjoifsdiofjsdiofjoidsajoigv
+    lifetimeInSeconds: 20000
